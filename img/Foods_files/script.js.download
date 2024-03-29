@@ -1,0 +1,59 @@
+
+
+const icons = document.querySelectorAll('.section-1-icons i');
+let i = 1;
+
+setInterval(() => {
+    i++;
+
+    const icon = document.querySelector('.section-1-icons .change');
+    icon.classList.remove('change');
+
+    if(i > icons.length){
+        icons[0].classList.add('change')
+        i = 1;
+    }else {
+        icon.nextElementSibling.classList.add('change')
+    }
+
+
+},4000)
+
+const firstDot = document.querySelector('.first-dot');
+const secondDot = document.querySelector('.second-dot');
+
+const firstSlide = document.querySelector('.first-slide');
+const secondSlide = document.querySelector('.second-slide');
+
+document.querySelectorAll('.btn-dot').forEach(function (el){
+    el.addEventListener('click', function(e){
+        e.preventDefault;
+        firstSlide.classList.toggle('hidden');
+        secondSlide.classList.toggle('hidden');
+    })
+})
+
+
+// firstDot.addEventListener('click', () => {
+//     firstSlide.classList.remove('hidden');
+//     secondSlide.classList.add('hidden');
+//     console.log('first');
+// })
+
+// secondDot.addEventListener('click', () => {
+//     secondSlide.classList.remove('hidden');
+//     firstSlide.classList.add('hidden');
+//     console.log('second');
+// })
+
+
+
+
+
+
+
+
+
+
+
+
