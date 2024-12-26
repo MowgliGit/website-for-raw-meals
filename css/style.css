@@ -229,7 +229,7 @@ header {
       rgba(184, 110, 0, 0.6),
       rgba(184, 110, 0, 0.6)
     ),
-    url(../img/raw\ 4.jpeg);
+    url("../img/raw\ 4.jpeg");
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 0 5rem #2d0a0a;
