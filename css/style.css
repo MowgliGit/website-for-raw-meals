@@ -70,6 +70,10 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  padding-top: 6rem;
+}
+
+body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   outline: none;
@@ -90,14 +94,12 @@ body {
   line-height: 1.1;
   color: #542626;
   margin-bottom: 3rem;
-  /* font-weight: 600!important; */
 }
 .heading-secondary-white {
   font-size: 3rem;
   line-height: 1.1;
   color: #f9f9f9;
   margin-bottom: 4rem;
-  /* font-weight: 600!important; */
 }
 .heading-tertiary {
   font-size: 2.4rem;
@@ -157,15 +159,21 @@ hr {
 /* ***************** */
 header {
   background-color: #8b571f;
-  padding: 1rem 3.8rem;
+  padding: 1.6rem 3.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
+
 .logo-img {
   height: 4.4rem;
 }
+
 .nav-list {
   list-style: none;
   display: flex;
@@ -173,6 +181,7 @@ header {
   justify-content: center;
   gap: 1rem;
 }
+
 .nav-link:link,
 .nav-link:visited {
   text-decoration: none;
@@ -184,11 +193,13 @@ header {
   color: #f9f9f9;
   transition: all 0.3s;
 }
+
 .nav-link:hover,
 .nav-link:active {
   background-color: #f9f9f9;
   color: #542626;
 }
+
 .submit:link,
 .submit:visited {
   display: inline-block;
@@ -198,24 +209,28 @@ header {
   color: #f9f9f9;
   transition: all 0.3s;
 }
+
 .submit:hover,
 .submit:active {
   background-color: #f9f9f9;
   color: #542626;
   transform: translateY(-0.2rem);
 }
+
 .btn-mobile-nav {
   background: none;
   border: none;
   cursor: pointer;
   display: none;
 }
+
 .icon-mobile-nav {
   width: 4.8rem;
   height: 4.8rem;
   color: #f9f9f9;
   align-self: center;
 }
+
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
