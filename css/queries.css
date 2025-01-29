@@ -454,7 +454,19 @@
 /* 600/ 16 = 43.75 */
 @media (max-width: 37em) {
   .container-text-box {
-    padding: 2rem;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 6.4rem;
+  }
+  .text-box {
+    padding: 10rem 2rem 5rem 2rem;
+  }
+  .heading-primary {
+    /* / 30 / 36 / 44 / 52 / 62 /  */
+    margin-top: 5rem;
   }
   .btn-big:link,
   .btn-big:visited {
