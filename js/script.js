@@ -1,11 +1,18 @@
 // ********** //
 // NAVIGATION
 // ********** //
-const randomColorNav = () => `rgb(84, 38, 38)`;
+// const randomColorNav = () => `rgb(84, 38, 38)`;
 
-document.querySelector(".header").addEventListener("click", function (e) {
-  e.preventDefault;
-  this.style.backgroundColor = randomColorNav();
+// document.querySelector(".header").addEventListener("click", function (e) {
+//   e.preventDefault;
+//   this.style.backgroundColor = randomColorNav();
+// });
+const originalColor = "#8b571f;";
+const newColor = "rgb(84, 38, 38)";
+
+document.querySelector(".header").addEventListener("click", function () {
+  this.style.backgroundColor =
+    this.style.backgroundColor === newColor ? originalColor : newColor;
 });
 // ********** //
 //    MENU

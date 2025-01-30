@@ -523,6 +523,8 @@ figure {
 .section-meal {
   padding: 9.6rem 0;
   background-color: #ffb566;
+  position: relative;
+  z-index: 10;
 }
 .container-section-meal {
   padding: 10rem;
