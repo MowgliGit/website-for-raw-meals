@@ -81,6 +81,8 @@ body {
   color: #555;
   overflow-x: hidden;
   position: relative;
+  max-width: 1550px;
+  margin: 0 auto;
 }
 /*  */
 .container {
@@ -157,6 +159,11 @@ hr {
 /* ***************** */
 /* HEADER NAVIGATION */
 /* ***************** */
+main {
+  max-width: 1550px;
+  margin: 0 auto;
+  position: relative;
+}
 header {
   background-color: #8b571f;
   padding: 1.6rem 3.2rem;
@@ -165,9 +172,11 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
+
   z-index: 1000;
+  max-width: 1550px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .logo-img {
@@ -252,10 +261,10 @@ header {
   position: relative;
 }
 .container-text-box {
-  height: 40rem;
+  height: 60rem;
   display: flex;
   justify-content: start;
-  align-items: flex-end;
+  align-items: center;
   padding-left: 6.4rem;
 }
 .heading-primary {
