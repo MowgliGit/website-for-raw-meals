@@ -822,7 +822,12 @@ a:visited {
   font-size: 1.4rem;
   color: #f9f9f9;
 }
-.footer-item:link a:link {
+.footer-item {
+  font-size: 1.4rem;
+  color: #f9f9f9 !important;
+  text-decoration: none !important;
+}
+.footer-link:link {
   font-size: 1.4rem;
   color: #f9f9f9 !important;
   text-decoration: none !important;
