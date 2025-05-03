@@ -824,8 +824,8 @@ a:visited {
 }
 .footer-item:link {
   font-size: 1.4rem;
-  color: #f9f9f9;
-  text-decoration: none;
+  color: #f9f9f9 !important;
+  text-decoration: none !important;
 }
 /*
 --- 01 TYPOGRAPHY SYSTEM
