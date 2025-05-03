@@ -1,589 +1,579 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Raw Meal is an AI-powered food subscriptio that will make you eat healty again." >
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/queries.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Raw Meal is an AI-powered food subscriptio that will make you eat healty again."
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>Raw Meal &mdash; Never cook again</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <!-- Navigation -->
-        <header class="header">
-            <img 
-            class="logo-img"
-            src="./img/logo.jpg" 
-            alt="logo">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a class="nav-link" href="#howitworks">How it works</a></li>
-                    <li><a class="nav-link" href="#menu">Menu</a></li>
-                    <li><a class="nav-link" href="#features">Features</a></li>
-                    <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
-                    <li><a class="nav-link submit" href="#footer">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="btn-mobile-nav">
-                <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
-                <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
-            </button>
-        </header>
-        <!-- Section main cover -->
-        <section class="section-cover">
-            <div class="container-text-box">
-                <div class="text-box">
-                    <h1 class="heading-primary">
-                        Raw Meal
-                    </h1>
-                    <p class="heading-primary-sub">Go Organic for Maximum Benefits</p>
-                    <div class="btn-section-cover">
-                        <a href="#menu" class="btn btn-big margin-right">Choose meal</a>
-                        <a href="#cta" class="btn btn-more">Start eathing healthy</a>
-                    </div>
-                </div>
+      <!-- Navigation -->
+      <header class="header">
+        <img class="logo-img" src="./img/logo.jpg" alt="logo" />
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#howitworks">How it works</a></li>
+            <li><a class="nav-link" href="#menu">Menu</a></li>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li><a class="nav-link submit" href="#footer">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+      <!-- Section main cover -->
+      <section class="section-cover">
+        <div class="container-text-box">
+          <div class="text-box">
+            <h1 class="heading-primary">Raw Meal</h1>
+            <p class="heading-primary-sub">Go Organic for Maximum Benefits</p>
+            <div class="btn-section-cover">
+              <a href="#menu" class="btn btn-big margin-right">Choose meal</a>
+              <a href="#cta" class="btn btn-more">Start eathing healthy</a>
             </div>
-        </section>
-        <!-- End of section 1 -->
-        <!-- Section Features -->
-        <section class="featurtes-benefits" id="features">
-            <div class="features container">
-                <h2 class="heading-secondary heading-secondary-white">
-                    Benefits of Eating Raw Food
-                </h2>
-                <div class="features grid">
-                    <div class="features-item">
-                        <ion-icon class="feature-icon" 
-                        name="medkit-outline"></ion-icon>
-                        <h4 class="heading-quaternary">
-                            Protect acute diseases.
-                        </h4>
-                        <p class="text-paragraph">
-                            Healthy body with better defenses 
-                            to prevent the intrusion of disease.
-                        </p>
-                    </div>
-                    <div class="features-item">
-                        <ion-icon class="feature-icon"
-                        name="speedometer-outline"></ion-icon>
-                        <h4 class="heading-quaternary">
-                            Raw foods take  little preparation 
-                        </h4>
-                        <p class="text-paragraph">
-                            You spend less time in the kitchen.
-                            No baked-on oils or crusty messes.  
-                        </p>
-                    </div>
-                    <div class="features-item">
-                        <ion-icon class="feature-icon"
-                        name="cash-outline"></ion-icon>
-                        <h4 class="heading-quaternary">
-                            Eating raw saves you money.
-                        </h4>
-                        <p class="text-paragraph">
-                            So don’t waste your food, 
-                            yourself, and our planet by cooking what you eat.
-                        </p>
-                    </div>
-                    <div class="features-item">
-                        <ion-icon class="feature-icon"
-                        name="checkmark-done-circle-outline"></ion-icon>
-                        <h4 class="heading-quaternary">
-                            Raw foods are better quality.
-                        </h4>
-                        <p class="text-paragraph">
-                            The heat of cooking depletes vitamins, 
-                            damages proteins and enzymes.
-                        </p>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of section 1 -->
+      <!-- Section Features -->
+      <section class="featurtes-benefits" id="features">
+        <div class="features container">
+          <h2 class="heading-secondary heading-secondary-white">
+            Benefits of Eating Raw Food
+          </h2>
+          <div class="features grid">
+            <div class="features-item">
+              <ion-icon class="feature-icon" name="medkit-outline"></ion-icon>
+              <h4 class="heading-quaternary">Protect acute diseases.</h4>
+              <p class="text-paragraph">
+                Healthy body with better defenses to prevent the intrusion of
+                disease.
+              </p>
             </div>
-        </section>
-        <!-- End of Section Features -->
-        <!-- Section Testimonials -->
-        <section class="section-testimonials" id="testimonials">
-            <div class="container">
-                <h2 class="heading-secondary">
-                    Raw Food Diet Testimonials - Making Sense of It
-                </h2>
+            <div class="features-item">
+              <ion-icon
+                class="feature-icon"
+                name="speedometer-outline"
+              ></ion-icon>
+              <h4 class="heading-quaternary">
+                Raw foods take little preparation
+              </h4>
+              <p class="text-paragraph">
+                You spend less time in the kitchen. No baked-on oils or crusty
+                messes.
+              </p>
             </div>
-            <div class="container testimonials-container grid grid--2-cols">
-                <div class="testimonials">
-                    <div class="testimonial first-testimonial">
-                        <figure>
-                            <img src="./img/women 1.jpeg"
-                            class="testimonial-img"
-                            alt="Girl about raw food">
-                            <p class="testimonial-name">Jonas Smith</p>
-                        </figure>
-                        <blockquote class="testimonial-text">
-                            Raw food diet is the ‘original diet’. 
-                            And adding more fresh fruits and vegetables into 
-                            your diet is recommended by countless nutritional experts 
-                            and are only going to make you feel better.
-                        </blockquote>
-                    </div>
-                    <div class="testimonial second-testimonial">
-                        <figure>
-                            <img src="./img/man 1.jpeg" 
-                            class="testimonial-img"
-                            alt="Man about raw food">
-                            <p class="testimonial-name">Jonas Smith</p>
-                        </figure>
-                        <blockquote class="testimonial-text">
-                            If you do try the raw food diet and you feel 
-                            happy and healthy, then you could be adding your 
-                            story to the long list of raw food diet testimonies. So continue to 
-                            do your research and you just might be amazed at the results.
-                        </blockquote>
-                    </div>
-                    <div class="testimonial third-testimonial">
-                        <figure>
-                            <img src="./img/women2.jpeg"
-                            class="testimonial-img"
-                            alt="Women about raw food">
-                            <p class="testimonial-name">Jonas Smith</p>
-                        </figure>
-                        <blockquote class="testimonial-text">
-                            The reason for this is simply that your 
-                            body is receiving easily digested whole food 
-                            nutrition as nature intended. Those who share their raw 
-                            food diet testimonials say there's a little more to it than that.
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="testimonial-box-text">
-                    <div class="center">
-                        <img src="./img/testimoniall.jpeg" 
-                        class="testimonial-cover"
-                        alt="tetimonial-cover">
-                    </div>
-                    <div class="testimonial-text-cover">
-                        <h3 class="heading-tertiary">
-                            What Is the Raw Food Diet?
-                        </h3>
-                        <p class="text-paragraph">
-                            The raw food diet, often called raw foodism or raw veganism, 
-                            is composed of mostly or completely raw and unprocessed foods.
-                        </p>
-                    </div>
-                </div>
+            <div class="features-item">
+              <ion-icon class="feature-icon" name="cash-outline"></ion-icon>
+              <h4 class="heading-quaternary">Eating raw saves you money.</h4>
+              <p class="text-paragraph">
+                So don’t waste your food, yourself, and our planet by cooking
+                what you eat.
+              </p>
             </div>
-        </section>
-        <!-- End of Section Testimonials -->
-        <!-- Section How it works -->
-        <section class="section-howitstart" id="howitworks">
-            <div class="howitstart howitstart-container">
-                <h2 class="heading-secondary heading-secondary-white center">
-                    How to Start a Raw Vegan Diet
-                    <hr>
-                </h2>
-                <div class="howitstart grid grid--3-cols">
-                    <div class="howitstart-item">
-                        <h4 class="heading-quaternary">
-                            Make a list of raw foods you like.  
-                        </h4>
-                        <div class="dots">
-                            <div class="dot">&nbsp;</div>
-                            <div class="dot">&nbsp;</div>
-                            <div class="dot">&nbsp;</div>
-                        </div>
-                        <ion-icon class="howitstart-icon"
-                        name="list-outline"></ion-icon>
-                    </div>
-                    <div class="howitstart-item">
-                        <div>
-                            <ion-icon class="howitstart-icon"
-                            name="close-outline"></ion-icon>
-                        </div>
-                        <div class="dots">
-                            <div class="dot">&nbsp;</div>
-                            <div class="dot">&nbsp;</div>
-                            <div class="dot">&nbsp;</div>
-                        </div>
-                        <h4 class="heading-quaternary"> 
-                            Eliminate foods from your diet.  
-                        </h4>
-                    </div>
-                    <div class="howitstart-item">
-                        <h4 class="heading-quaternary">
-                            Eat lots of fruit&vegetables. 
-                        </h4>
-                        <div class="dots">
-                            <div class="dot">&nbsp;</div>
-                            <div class="dot">&nbsp;</div>
-                            <div class="dot">&nbsp;</div>
-                        </div>
-                        <ion-icon class="howitstart-icon"
-                        name="happy-outline"></ion-icon>
-                    </div>
-                </div>
-                <hr>
+            <div class="features-item">
+              <ion-icon
+                class="feature-icon"
+                name="checkmark-done-circle-outline"
+              ></ion-icon>
+              <h4 class="heading-quaternary">Raw foods are better quality.</h4>
+              <p class="text-paragraph">
+                The heat of cooking depletes vitamins, damages proteins and
+                enzymes.
+              </p>
             </div>
-        </section>
-        <!-- End of section How it works -->
-        <!-- Section Menu -->
-        <section class="section-meal first-slide" id="menu">
-            <div class="container">
-                <div class="flex">
-                    <hr>
-                    <h2 class="heading-secondary heading-secondary-italic">
-                       Starters & Salad
-                    </h2>
-                    <hr>
-                </div>
-                <div class="meals-container meals-container-grid">
-                        <div class="first-meal-img">
-                            <img src="./img/avocado.jpeg" 
-                            class="meal-img"
-                            alt="granola">
-                        </div>
-                        <div class="text-box-meals first-text-box-meals">
-                            <h6 class="heading-meals center">
-                                Avocado “Caprese” Salad
-                            </h6>
-                            <p class="text-paragraph-meals">
-                                Caprese bursts with fresh garden flavors.
-                                A touch of balsamic vinegar gives it a tangy snap.
-                            </p>
-                            <div class="btn-flex">
-                                <button class="btn-small">
-                                    <a href="#">Add to cart</a>
-                                </button>
-                                <p class="total-price">$ 10</p>
-                            </div>
-                        </div>
-                        <div class="second-meal-img">
-                            <img src="./img/Cashew.jpeg" 
-                            class="meal-img"
-                            alt="granola">
-                        </div>
-                        <div class="text-box-meals second-text-box-meals">
-                            <h6 class="heading-meals center">
-                                Raw Vegan Cashew Cream Cheese
-                            </h6>
-                            <p class="text-paragraph-meals">
-                                Vegan cream cheese is awesome. 
-                                Here’s a rich, creamy, cashewy answer to anyone who says it isn’t.
-                            </p>
-                            <div class="btn-flex">
-                                <button class="btn-small">
-                                    <a href="#">Add to cart</a>
-                                </button>
-                                <p class="total-price">$ 10</p>
-                            </div>
-                        </div>
-                        <div class="text-box-meals third-text-box-meals">
-                            <h6 class="heading-meals center">
-                                Broccoli Salad
-                            </h6>
-                            <p class="text-paragraph-meals">
-                                Oil-free, vegan, and raw, this 
-                                broccoli salad is creamy, crunchy,
-                                and full of flavor. 
-                            </p>
-                            <div class="btn-flex">
-                                <button class="btn-small">
-                                    <a href="#">Add to cart</a>
-                                </button>
-                                <p class="total-price">$ 10</p>
-                            </div>
-                        </div>
-                        <div class="third-meal-img">
-                            <img src="./img/broculi.jpeg" 
-                            class="meal-img"
-                            alt="granola">
-                        </div>
-                        <div class="text-box-meals four-text-box-meals">
-                            <h6 class="heading-meals center">
-                               Avocado Gazpacho
-                            </h6>
-                            <p class="text-paragraph-meals">
-                                This take on gazpacho stars a match made in heaven: 
-                                sweet carrots and rich avocados. 
-                            </p>
-                            <div class="btn-flex">
-                                <button class="btn-small">
-                                    <a href="#">Add to cart</a>
-                                </button>
-                                <p class="total-price">$ 10</p>
-                            </div>
-                        </div>
-                        <div class="four-meal-img">
-                            <img src="./img/avocado gazpacho.jpeg" 
-                            class="meal-img"
-                            alt="granola">
-                        </div>
-                        <div class="text-box-meals text-box-meals-hidden">
-                            <p class="text-paragraph-meals meal-text-paragraph-hidden">
-                                Thank you for your trust.
-                            </p>
-                            <ion-icon class="meal-icon"
-                            name="heart-outline"></ion-icon>
-                        </div>
-                    </div> 
-                </div>
-                    <div class="container slider-btns-dots">
-                        <div class="btn-dot btn-dot-fill">&nbsp;</div>
-                <div class="btn-dot">&nbsp;</div>
-            </div> 
-        </section>
-        <section class="section-meal second-slide hidden" id="menu">
-            <div class="container">
-                <div class="flex">
-                    <hr>
-                    <h2 class="heading-secondary heading-secondary-italic">
-                        Main Courses
-                    </h2>
-                    <hr>
-                </div>
-                <div class="meals-container">
-                    <div class="first-meal-img">
-                        <img src="./img/apple.jpeg" 
-                            class="meal-img"
-                            alt="granola">
-                        </div>
-                        <div class="text-box-meals first-text-box-meals">
-                            <h6 class="heading-meals center">
-                                Spiced Apple & Date Pie
-                            </h6>
-                            <p class="text-paragraph-meals">
-                                Great for the colder months, 
-                                this raw pie pairs apples, dates, 
-                                and a warm blend of spices. 
-                            </p>
-                            <div class="btn-flex">
-                                <button class="btn-small">
-                                    <a href="#">Add to cart</a>
-                                </button>
-                                <p class="total-price">$ 10</p>
-                            </div>
-                        </div>
-                        <div class="second-meal-img">
-                            <img src="./img/pumkin.jpeg" 
-                            class="meal-img"
-                            alt="granola">
-                        </div>
-                        <div class="text-box-meals second-text-box-meals">
-                            <h6 class="heading-meals center">
-                                Pumpkin Pie
-                            </h6>
-                            <p class="text-paragraph-meals">
-                                Favorite Thanksgiving treat features 
-                                a custom spice blend that will have your tongue 
-                                tingling for more.
-                            </p>
-                            <div class="btn-flex">
-                                <button class="btn-small">
-                                    <a href="#">Add to cart</a>
-                                </button>
-                                <p class="total-price">$ 10</p>
-                            </div>
-                        </div>
-                        <div class="text-box-meals third-text-box-meals">
-                            <h6 class="heading-meals center">
-                                Veggie Burger
-                                </h6>
-                                <p class="text-paragraph-meals">
-                                    Burgers are a classic summer dish, 
-                                    made with sunflower seeds, 
-                                    walnuts, and tons of fresh vegetables, is sure to delight.
-                                </p>
-                                <div class="btn-flex">
-                                    <button class="btn-small">
-                                        <a href="#">Add to cart</a>
-                                    </button>
-                                    <p class="total-price">$ 10</p>
-                                </div>
-                            </div>
-                            <div class="third-meal-img">
-                                <img src="./img/burger.jpeg" 
-                                class="meal-img"
-                                alt="granola">
-                            </div>
-                            <div class="text-box-meals four-text-box-meals">
-                                <h6 class="heading-meals center">
-                                    Raw Veggie Pasta
-                                </h6>
-                                <p class="text-paragraph-meals four-text-paragraph-meals">
-                                    Made with zucchini and cucumber noodles, 
-                                    this pasta is refreshing and filling. 
-                                    for seasonal ones or add in your favorites.
-                                </p>
-                                <div class="btn-flex">
-                                    <button class="btn-small">
-                                        <a href="#">Add to cart</a>
-                                    </button>
-                                    <p class="total-price">$ 10</p>
-                                </div>
-                            </div>
-                            <div class="four-meal-img">
-                                <img src="./img/pasta.jpeg" 
-                                class="meal-img"
-                                alt="granola">
-                            </div>
-                            <div class="text-box-meals text-box-meals-hidden">
-                                <p class="text-paragraph-meals meal-text-paragraph-hidden">
-                                    Thank you for your trust.
-                                </p>
-                                <ion-icon class="meal-icon"
-                                name="heart-outline"></ion-icon>
-                            </div>
-                        </div>
-                        <div class="container slider-btns-dots">
-                            <div class="btn-dot">&nbsp;</div>
-                            <div class="btn-dot btn-dot-fill">&nbsp;</div>
-                        </div>
-                </div>
-        </section> 
-        <!-- End of Section Menu -->
-        <!-- Section How it works -->
-        <section class="section-howitworks">
-            <div class="howitworks container">
-                <h2 class="heading-secondary heading-secondary-white">
-                    3 Steps to healthy eathing
-                </h2>
-                <div class="howitworks grid grid--3-cols">
-                    <div class="howitworks-item">
-                        <span class="number">01</span>
-                        <h4 class="heading-quaternary">
-                            Choose a food package
-                        </h4>
-                        <p class="text-paragraph">
-                            First select the package that you prefer the most. 
-                        </p>
-                        
-                    </div>
-                    <div class="howitworks-item">
-                        <span class="number">02</span>
-                        <h4 class="heading-quaternary">
-                            Customize your menu
-                        </h4>
-                        <p class="text-paragraph">
-                           After that, feel free to change
-                           and customize your menu.  
-                        </p>
-                    </div>
-                    <div class="howitworks-item">
-                        <span class="number">03</span>
-                        <h4 class="heading-quaternary">
-                            Delivery addresss & time
-                        </h4>
-                        <p class="text-paragraph">
-                            Finally, let us know  where and when
-                            to delivery your food.
-                        </p>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Section Features -->
+      <!-- Section Testimonials -->
+      <section class="section-testimonials" id="testimonials">
+        <div class="container">
+          <h2 class="heading-secondary">
+            Raw Food Diet Testimonials - Making Sense of It
+          </h2>
+        </div>
+        <div class="container testimonials-container grid grid--2-cols">
+          <div class="testimonials">
+            <div class="testimonial first-testimonial">
+              <figure>
+                <img
+                  src="./img/women 1.jpeg"
+                  class="testimonial-img"
+                  alt="Girl about raw food"
+                />
+                <p class="testimonial-name">Jonas Smith</p>
+              </figure>
+              <blockquote class="testimonial-text">
+                Raw food diet is the ‘original diet’. And adding more fresh
+                fruits and vegetables into your diet is recommended by countless
+                nutritional experts and are only going to make you feel better.
+              </blockquote>
             </div>
-        </section>
-        <!-- End of section How it works -->
-        <!-- Cta section -->
-        <section class="section-cta">
-            <div class="container">
-                <div class="cta" id="cta">
-                    <div class="cta-text-box">
-                        <h3 class="heading-tertiary center">
-                            Get your first Raw Meal
-                        </h3>
-                        <p class="text-paragraph">
-                            Healthy,tasty meals are waithing for you.
-                            Start eathing well today.
-                        </p>
-                        <form class="form" action="#">
-                            <div class="form-control">
-                                <label for="username">Username</label>
-                                <input class="username" 
-                                id="username" type="text" placeholder="Enter your user name" required>
-                                <small>Error  message</small>
-                            </div>
-                            <div class="form-control">
-                                <label for="email">Email</label>
-                                <input class="email" 
-                                id="email" type="text" placeholder="Enter your email" required>
-                                <small>Error  message</small>
-                            </div>
-                            <div class="form-control">
-                                <label for="password">Password</label>
-                                <input class="password" 
-                                id="password" type="password" placeholder="Enter your password" required>
-                                <small>Error  message</small>
-                            </div>
-                            <button id="section-cta" type="submit" class="btn-form center">
-                            Sign up now
-                        </button>
-                        </form>
-                    </div>
-                    <div class="cta-women-image" 
-                    role="img" aria-label="cta-women-image">
-                    &nbsp;
-                    </div>
-                </div>
+            <div class="testimonial second-testimonial">
+              <figure>
+                <img
+                  src="./img/man 1.jpeg"
+                  class="testimonial-img"
+                  alt="Man about raw food"
+                />
+                <p class="testimonial-name">Jonas Smith</p>
+              </figure>
+              <blockquote class="testimonial-text">
+                If you do try the raw food diet and you feel happy and healthy,
+                then you could be adding your story to the long list of raw food
+                diet testimonies. So continue to do your research and you just
+                might be amazed at the results.
+              </blockquote>
             </div>
-        </section>
-        <!-- End of Cta section -->
+            <div class="testimonial third-testimonial">
+              <figure>
+                <img
+                  src="./img/women2.jpeg"
+                  class="testimonial-img"
+                  alt="Women about raw food"
+                />
+                <p class="testimonial-name">Jonas Smith</p>
+              </figure>
+              <blockquote class="testimonial-text">
+                The reason for this is simply that your body is receiving easily
+                digested whole food nutrition as nature intended. Those who
+                share their raw food diet testimonials say there's a little more
+                to it than that.
+              </blockquote>
+            </div>
+          </div>
+          <div class="testimonial-box-text">
+            <div class="center">
+              <img
+                src="./img/testimoniall.jpeg"
+                class="testimonial-cover"
+                alt="tetimonial-cover"
+              />
+            </div>
+            <div class="testimonial-text-cover">
+              <h3 class="heading-tertiary">What Is the Raw Food Diet?</h3>
+              <p class="text-paragraph">
+                The raw food diet, often called raw foodism or raw veganism, is
+                composed of mostly or completely raw and unprocessed foods.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Section Testimonials -->
+      <!-- Section How it works -->
+      <section class="section-howitstart" id="howitworks">
+        <div class="howitstart howitstart-container">
+          <h2 class="heading-secondary heading-secondary-white center">
+            How to Start a Raw Vegan Diet
+            <hr />
+          </h2>
+          <div class="howitstart grid grid--3-cols">
+            <div class="howitstart-item">
+              <h4 class="heading-quaternary">
+                Make a list of raw foods you like.
+              </h4>
+              <div class="dots">
+                <div class="dot">&nbsp;</div>
+                <div class="dot">&nbsp;</div>
+                <div class="dot">&nbsp;</div>
+              </div>
+              <ion-icon class="howitstart-icon" name="list-outline"></ion-icon>
+            </div>
+            <div class="howitstart-item">
+              <div>
+                <ion-icon
+                  class="howitstart-icon"
+                  name="close-outline"
+                ></ion-icon>
+              </div>
+              <div class="dots">
+                <div class="dot">&nbsp;</div>
+                <div class="dot">&nbsp;</div>
+                <div class="dot">&nbsp;</div>
+              </div>
+              <h4 class="heading-quaternary">
+                Eliminate foods from your diet.
+              </h4>
+            </div>
+            <div class="howitstart-item">
+              <h4 class="heading-quaternary">Eat lots of fruit&vegetables.</h4>
+              <div class="dots">
+                <div class="dot">&nbsp;</div>
+                <div class="dot">&nbsp;</div>
+                <div class="dot">&nbsp;</div>
+              </div>
+              <ion-icon class="howitstart-icon" name="happy-outline"></ion-icon>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </section>
+      <!-- End of section How it works -->
+      <!-- Section Menu -->
+      <section class="section-meal first-slide" id="menu">
+        <div class="container">
+          <div class="flex">
+            <hr />
+            <h2 class="heading-secondary heading-secondary-italic">
+              Starters & Salad
+            </h2>
+            <hr />
+          </div>
+          <div class="meals-container meals-container-grid">
+            <div class="first-meal-img">
+              <img src="./img/avocado.jpeg" class="meal-img" alt="granola" />
+            </div>
+            <div class="text-box-meals first-text-box-meals">
+              <h6 class="heading-meals center">Avocado “Caprese” Salad</h6>
+              <p class="text-paragraph-meals">
+                Caprese bursts with fresh garden flavors. A touch of balsamic
+                vinegar gives it a tangy snap.
+              </p>
+              <div class="btn-flex">
+                <button class="btn-small">
+                  <a href="#">Add to cart</a>
+                </button>
+                <p class="total-price">$ 10</p>
+              </div>
+            </div>
+            <div class="second-meal-img">
+              <img src="./img/Cashew.jpeg" class="meal-img" alt="granola" />
+            </div>
+            <div class="text-box-meals second-text-box-meals">
+              <h6 class="heading-meals center">
+                Raw Vegan Cashew Cream Cheese
+              </h6>
+              <p class="text-paragraph-meals">
+                Vegan cream cheese is awesome. Here’s a rich, creamy, cashewy
+                answer to anyone who says it isn’t.
+              </p>
+              <div class="btn-flex">
+                <button class="btn-small">
+                  <a href="#">Add to cart</a>
+                </button>
+                <p class="total-price">$ 10</p>
+              </div>
+            </div>
+            <div class="text-box-meals third-text-box-meals">
+              <h6 class="heading-meals center">Broccoli Salad</h6>
+              <p class="text-paragraph-meals">
+                Oil-free, vegan, and raw, this broccoli salad is creamy,
+                crunchy, and full of flavor.
+              </p>
+              <div class="btn-flex">
+                <button class="btn-small">
+                  <a href="#">Add to cart</a>
+                </button>
+                <p class="total-price">$ 10</p>
+              </div>
+            </div>
+            <div class="third-meal-img">
+              <img src="./img/broculi.jpeg" class="meal-img" alt="granola" />
+            </div>
+            <div class="text-box-meals four-text-box-meals">
+              <h6 class="heading-meals center">Avocado Gazpacho</h6>
+              <p class="text-paragraph-meals">
+                This take on gazpacho stars a match made in heaven: sweet
+                carrots and rich avocados.
+              </p>
+              <div class="btn-flex">
+                <button class="btn-small">
+                  <a href="#">Add to cart</a>
+                </button>
+                <p class="total-price">$ 10</p>
+              </div>
+            </div>
+            <div class="four-meal-img">
+              <img
+                src="./img/avocado gazpacho.jpeg"
+                class="meal-img"
+                alt="granola"
+              />
+            </div>
+            <div class="text-box-meals text-box-meals-hidden">
+              <p class="text-paragraph-meals meal-text-paragraph-hidden">
+                Thank you for your trust.
+              </p>
+              <ion-icon class="meal-icon" name="heart-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div class="container slider-btns-dots">
+          <div class="btn-dot btn-dot-fill">&nbsp;</div>
+          <div class="btn-dot">&nbsp;</div>
+        </div>
+      </section>
+      <section class="section-meal second-slide hidden" id="menu">
+        <div class="container">
+          <div class="flex">
+            <hr />
+            <h2 class="heading-secondary heading-secondary-italic">
+              Main Courses
+            </h2>
+            <hr />
+          </div>
+          <div class="meals-container">
+            <div class="first-meal-img">
+              <img src="./img/apple.jpeg" class="meal-img" alt="granola" />
+            </div>
+            <div class="text-box-meals first-text-box-meals">
+              <h6 class="heading-meals center">Spiced Apple & Date Pie</h6>
+              <p class="text-paragraph-meals">
+                Great for the colder months, this raw pie pairs apples, dates,
+                and a warm blend of spices.
+              </p>
+              <div class="btn-flex">
+                <button class="btn-small">
+                  <a href="#">Add to cart</a>
+                </button>
+                <p class="total-price">$ 10</p>
+              </div>
+            </div>
+            <div class="second-meal-img">
+              <img src="./img/pumkin.jpeg" class="meal-img" alt="granola" />
+            </div>
+            <div class="text-box-meals second-text-box-meals">
+              <h6 class="heading-meals center">Pumpkin Pie</h6>
+              <p class="text-paragraph-meals">
+                Favorite Thanksgiving treat features a custom spice blend that
+                will have your tongue tingling for more.
+              </p>
+              <div class="btn-flex">
+                <button class="btn-small">
+                  <a href="#">Add to cart</a>
+                </button>
+                <p class="total-price">$ 10</p>
+              </div>
+            </div>
+            <div class="text-box-meals third-text-box-meals">
+              <h6 class="heading-meals center">Veggie Burger</h6>
+              <p class="text-paragraph-meals">
+                Burgers are a classic summer dish, made with sunflower seeds,
+                walnuts, and tons of fresh vegetables, is sure to delight.
+              </p>
+              <div class="btn-flex">
+                <button class="btn-small">
+                  <a href="#">Add to cart</a>
+                </button>
+                <p class="total-price">$ 10</p>
+              </div>
+            </div>
+            <div class="third-meal-img">
+              <img src="./img/burger.jpeg" class="meal-img" alt="granola" />
+            </div>
+            <div class="text-box-meals four-text-box-meals">
+              <h6 class="heading-meals center">Raw Veggie Pasta</h6>
+              <p class="text-paragraph-meals four-text-paragraph-meals">
+                Made with zucchini and cucumber noodles, this pasta is
+                refreshing and filling. for seasonal ones or add in your
+                favorites.
+              </p>
+              <div class="btn-flex">
+                <button class="btn-small">
+                  <a href="#">Add to cart</a>
+                </button>
+                <p class="total-price">$ 10</p>
+              </div>
+            </div>
+            <div class="four-meal-img">
+              <img src="./img/pasta.jpeg" class="meal-img" alt="granola" />
+            </div>
+            <div class="text-box-meals text-box-meals-hidden">
+              <p class="text-paragraph-meals meal-text-paragraph-hidden">
+                Thank you for your trust.
+              </p>
+              <ion-icon class="meal-icon" name="heart-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="container slider-btns-dots">
+            <div class="btn-dot">&nbsp;</div>
+            <div class="btn-dot btn-dot-fill">&nbsp;</div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Section Menu -->
+      <!-- Section How it works -->
+      <section class="section-howitworks">
+        <div class="howitworks container">
+          <h2 class="heading-secondary heading-secondary-white">
+            3 Steps to healthy eathing
+          </h2>
+          <div class="howitworks grid grid--3-cols">
+            <div class="howitworks-item">
+              <span class="number">01</span>
+              <h4 class="heading-quaternary">Choose a food package</h4>
+              <p class="text-paragraph">
+                First select the package that you prefer the most.
+              </p>
+            </div>
+            <div class="howitworks-item">
+              <span class="number">02</span>
+              <h4 class="heading-quaternary">Customize your menu</h4>
+              <p class="text-paragraph">
+                After that, feel free to change and customize your menu.
+              </p>
+            </div>
+            <div class="howitworks-item">
+              <span class="number">03</span>
+              <h4 class="heading-quaternary">Delivery addresss & time</h4>
+              <p class="text-paragraph">
+                Finally, let us know where and when to delivery your food.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of section How it works -->
+      <!-- Cta section -->
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta" id="cta">
+            <div class="cta-text-box">
+              <h3 class="heading-tertiary center">Get your first Raw Meal</h3>
+              <p class="text-paragraph">
+                Healthy,tasty meals are waithing for you. Start eathing well
+                today.
+              </p>
+              <form class="form" action="#">
+                <div class="form-control">
+                  <label for="username">Username</label>
+                  <input
+                    class="username"
+                    id="username"
+                    type="text"
+                    placeholder="Enter your user name"
+                    required
+                  />
+                  <small>Error message</small>
+                </div>
+                <div class="form-control">
+                  <label for="email">Email</label>
+                  <input
+                    class="email"
+                    id="email"
+                    type="text"
+                    placeholder="Enter your email"
+                    required
+                  />
+                  <small>Error message</small>
+                </div>
+                <div class="form-control">
+                  <label for="password">Password</label>
+                  <input
+                    class="password"
+                    id="password"
+                    type="password"
+                    placeholder="Enter your password"
+                    required
+                  />
+                  <small>Error message</small>
+                </div>
+                <button id="section-cta" type="submit" class="btn-form center">
+                  Sign up now
+                </button>
+              </form>
+            </div>
+            <div
+              class="cta-women-image"
+              role="img"
+              aria-label="cta-women-image"
+            >
+              &nbsp;
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Cta section -->
     </main>
     <section class="footer" id="footer">
-        <footer class="container grid--6-cols">
-            <div class="footer-raw">
-                <h3 class="heading-tertiary">
-                    Raw Meal
-                </h3>
-                <div class="footer-icons">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-square-twitter"></i>
-                    <i class="fa-brands fa-pinterest"></i>
-                </div>
-                <p class="copyrights">
-                    Copyright @ <span class="year">2027</span> by Raw Meal.
-                    All rights reserved
-                </p>
-            </div>
-            <div class="footer-contact">
-                <h4 class="heading-fourth">Contact us</h4>
-                <p><address>Lorem ipsum dolor sit.</address></p>
-                <p class="contact-inf">
-                    <a href="415-255-6370">415-255-6370</a>
-                </p>
-                <p class="contact-inf">
-                    <a href="malito:hello@rawmeal.com">
-                        hellorawmeal.com
-                    </a>
-                </p>
-            </div>
-            <div class="footer-account">
-                <h4 class="heading-fourth">Account</h4>
-                <ul class="footer-list">
-                    <li>Create account</li>
-                    <li>Sign in</li>
-                </ul>
-            </div>
-            <div class="footer-about">
-                <h4 class="heading-fourth">About</h4>
-                <ul class="footer-list">
-                    <li>About Raw meal</li>
-                    <li>For Bussines</li>
-                </ul>
-            </div>
-            <div class="footer-other">
-                <h4 class="heading-fourth">Resourses</h4>
-                <ul class="footer-list">
-                    <li>Help Center</li>
-                    <li>Privasy & terms</li>
-                </ul>
-            </div>
-        </footer>
+      <footer class="container grid--6-cols">
+        <div class="footer-raw">
+          <h3 class="heading-tertiary">Raw Meal</h3>
+          <div class="footer-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <p class="copyrights">
+            &copy; <span class="year">2025</span> Your Name. All rights
+            reserved.
+          </p>
+        </div>
+
+        <div class="footer-contact">
+          <h4 class="heading-fourth">Contact</h4>
+          <address>000 Main Street, City, Country</address>
+          <p class="contact-inf">
+            <a href="tel:+10000000000">+1 (000) 000-0000</a>
+          </p>
+          <p class="contact-inf">
+            <a href="mailto:youremail@example.com">youremail@example.com</a>
+          </p>
+        </div>
+
+        <div class="footer-account">
+          <h4 class="heading-fourth">Account</h4>
+          <ul class="footer-list">
+            <li><a href="#">Create Account</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-about">
+          <h4 class="heading-fourth">About</h4>
+          <ul class="footer-list">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Portfolio</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-resources">
+          <h4 class="heading-fourth">Resources</h4>
+          <ul class="footer-list">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Privacy & Terms</a></li>
+          </ul>
+        </div>
+      </footer>
     </section>
-<script src="./js/script.js"></script>
-</body>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
